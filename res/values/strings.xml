@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Info Angkot Kota Jambi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Info Angkot Kota Jambi</string>
+    <string name="title_activity_keluar">Info Angkot Kota Jambi</string>
+    <string name="title_activity_tentang">Info Angkot Kota Jambi</string>
+    <string name="title_activity_tips">Info Angkot Kota Jambi</string>
+    <string name="title_activity_jam">Info Angkot Kota Jambi</string>
+    <string name="title_activity_ongkos">Info Angkot Kota Jambi</string>
+    <string name="title_activity_rute">Info Angkot Kota Jambi</string>
+    <string name="title_activity_jalur1">Info Angkot Kota Jambi</string>
+    <string name="title_activity_mayang">Info Angkot Kota Jambi</string>
+    <string name="title_activity_rimbo">Info Angkot Kota Jambi</string>
+    <string name="title_activity_jalur2">Info Angkot Kota Jambi</string>
+    <string name="title_activity_kasang">Info Angkot Kota Jambi</string>
+    <string name="title_activity_tanjung">Info Angkot Kota Jambi</string>
+    <string name="title_activity_jalur3">Info Angkot Kota Jambi</string>
+    <string name="title_activity_sipin">Info Angkot Kota Jambi</string>
+    <string name="title_activity_broni">Info Angkot Kota  Jambi</string>
+    <string name="title_activity_seberang">Info Angkot Kota Jambi</string>
+    <string name="title_activity_jalur4">Info Angkot Kota Jambi</string>
+    <string name="title_activity_kenali">Info Angkot Kota Jambi</string>
+    <string name="title_activity_handil">Info Angkot Kota Jambi</string>
+    <string name="title_activity_perumnas">Info Angkot Kota Jambi</string>
+    <string name="title_activity_jalur5">Info Angkot Kota Jambi</string>
+    <string name="title_activity_banjar">Info Angkot Kota Jambi</string>
+    <string name="title_activity_thehok">Info Angkot Kota Jambi</string>
+    <string name="title_activity_bakung">Info Angkot Kota Jambi</string>
+    <string name="title_activity_chandra">Info Angkot Kota Jambi</string>
+    <string name="title_activity_maps">Info Angkot Kota Jambi</string>
+
+</resources>

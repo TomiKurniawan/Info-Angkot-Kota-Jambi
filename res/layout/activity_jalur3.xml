@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.infoangkotkotajambi.Jalur3Activity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/rute2" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Button01"
+        android:layout_marginTop="17dp"
+        android:minHeight="52dp"
+        android:minWidth="72dp"
+        android:onClick="openBroni"
+        android:text="Jalur 3 B -- Broni - Telanaipura --"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="17dp"
+        android:minHeight="52dp"
+        android:minWidth="72dp"
+        android:onClick="openSeberang"
+        android:text="Jalur 3 C -- Broni - Telanaipura - Seberang --"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="Angkot Biru" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/angkotbiru" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="63dp"
+        android:text="Jalur 3 Angkot"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="33sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="12dp"
+        android:minHeight="52dp"
+        android:minWidth="72dp"
+        android:onClick="openSipin"
+        android:text="Jalur 3 A -- Sipin - Telanaipura --"
+        android:textSize="21sp" />
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.infoangkotkotajambi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".KeluarActivity"
+            android:label="@string/title_activity_keluar" >
+        </activity>
+        <activity
+            android:name=".TentangActivity"
+            android:label="@string/title_activity_tentang" >
+        </activity>
+        <activity
+            android:name=".TipsActivity"
+            android:label="@string/title_activity_tips" >
+        </activity>
+        <activity
+            android:name=".JamActivity"
+            android:label="@string/title_activity_jam" >
+        </activity>
+        <activity
+            android:name=".OngkosActivity"
+            android:label="@string/title_activity_ongkos" >
+        </activity>
+        <activity
+            android:name=".RuteActivity"
+            android:label="@string/title_activity_rute" >
+        </activity>
+        <activity
+            android:name=".Jalur1Activity"
+            android:label="@string/title_activity_jalur1" >
+        </activity>
+        <activity
+            android:name=".MayangActivity"
+            android:label="@string/title_activity_mayang" >
+        </activity>
+        <activity
+            android:name=".RimboActivity"
+            android:label="@string/title_activity_rimbo" >
+        </activity>
+        <activity
+            android:name=".Jalur2Activity"
+            android:label="@string/title_activity_jalur2" >
+        </activity>
+        <activity
+            android:name=".KasangActivity"
+            android:label="@string/title_activity_kasang" >
+        </activity>
+        <activity
+            android:name=".TanjungActivity"
+            android:label="@string/title_activity_tanjung" >
+        </activity>
+        <activity
+            android:name=".Jalur3Activity"
+            android:label="@string/title_activity_jalur3" >
+        </activity>
+        <activity
+            android:name=".SipinActivity"
+            android:label="@string/title_activity_sipin" >
+        </activity>
+        <activity
+            android:name=".BroniActivity"
+            android:label="@string/title_activity_broni" >
+        </activity>
+        <activity
+            android:name=".SeberangActivity"
+            android:label="@string/title_activity_seberang" >
+        </activity>
+        <activity
+            android:name=".Jalur4Activity"
+            android:label="@string/title_activity_jalur4" >
+        </activity>
+        <activity
+            android:name=".KenaliActivity"
+            android:label="@string/title_activity_kenali" >
+        </activity>
+        <activity
+            android:name=".HandilActivity"
+            android:label="@string/title_activity_handil" >
+        </activity>
+        <activity
+            android:name=".PerumnasActivity"
+            android:label="@string/title_activity_perumnas" >
+        </activity>
+        <activity
+            android:name=".Jalur5Activity"
+            android:label="@string/title_activity_jalur5" >
+        </activity>
+        <activity
+            android:name=".BanjarActivity"
+            android:label="@string/title_activity_banjar" >
+        </activity>
+        <activity
+            android:name=".ThehokActivity"
+            android:label="@string/title_activity_thehok" >
+        </activity>
+        <activity
+            android:name=".BakungActivity"
+            android:label="@string/title_activity_bakung" >
+        </activity>
+        <activity
+            android:name=".ChandraActivity"
+            android:label="@string/title_activity_chandra" >
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+    </application>
+
+</manifest>

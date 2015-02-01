@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.SeberangActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
+        android:text="Broni - Telenaipura - Seberang"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Berangkat : Terminal Rawasari - Jl. MH. Thamrin - Jl. KH. Dahlan - Jl. Sultan Taha - Jl. Slamet Riyadi - Jl. Urip Sumodiharjo - Jl. Kol. Abunjani - Mesjid Nurdin H - Sei. Kambang - Kol. Amir Hamzah - Simp. BI - Perkantoran Provinsi - RSUD - Buluran - Jl. Siwabessy - Teluk Kenali - Perumtas Aur Duri - Jembatan Aur Duri - Kec. Danau Teluk - Kec. Pelayangan"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Kembali : Kec. Pelayangan - Kec. Danau Teluk - Jembatan Aur Duri - Perumtas Aur Duri - Teluk Kenali - Jl. Madjid Jambi - Puskesmas Buluran - Jl. Dr. Tazar - Jl. Depati Perbo - Jl. Inu Kertapati - Jl. Atmadibrata - RSUD - Perkantoran Provinsi - Simp. BI - Jl. Kol Amir Hamzah - Jl. Urip Sumoharjo - Jl. Slamet Riyadi - Jl Sultan Taha - Jl. R. Mataher - Jl. Rang Kayo Hitam - Jl Sers Zuraida - Terminal Rawasari"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

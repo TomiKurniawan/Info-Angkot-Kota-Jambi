@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.RimboActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="60dp"
+                android:paddingRight="63dp"
+                android:paddingTop="10dp"
+                android:text="Simpang Rimbo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="33sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Berangkat : Terminal Rawasari - Jl. MH. Thamrin - Jl. Sultan Agung (Murni) - Jl. M. Yamin (Simp. Pulai) - Jl. HOS Cokroaminoto (Simp. Kawat) - Tugu Juang - Jl. Kol. Abunjani - Jl. Pattimura - Terminal Baru (Ring Road)"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="0dp"
+                android:text="Kembali : Terminal Baru - Jl. Pattimura - Jl. Kol. Abunjani - Tugu Juang - Jl. HOS Cokroaminoto - Jl. M Yamin - Jl. Sultan Agung - Jl Sultan Taha - Jl. Mataher - Jl. Rang Kayo Hitam - Jl Sers Zuraida - Terminal Rawasari"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.TanjungActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="57dp"
+                android:paddingTop="10dp"
+                android:text="Tanjung Pinang"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="33sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Berangkat: Terminal Rawasari - Jl. HP. Kusuma - Jl. P. Diponegoro - Jl. KH Hasyim Ashari - Jl. Panglima Polim - Jl. Kompol. A. Bastari - Jl. Ring Road - Jl. Rang Kayo Pingai - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Hitam - Jl. Sers. Zuraida - Term. Rawasari"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="Kembali: Terminal Rawasari - Jl. HP. Kusuma - Jl. P. Diponegoro - Jl. KH Hasyim Ashari - Jl. Panglima Polim - Jl. Kompol. A. Bastari - Jl. Ring Road - Jl. Rang Kayo Pingai - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Hitam - Jl. Sers. Zuraida - Term. Rawasari"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

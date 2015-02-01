@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.BroniActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Broni - Telanaipura"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="135dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Kembali : Jl. Arif Rahman Hakim - Simp. Karya - Jl. A. Manap - Jl. Yusuf Singedekane - Jl. Slamet Riyadi - Jl Sultan Taha - Jl. R. Mataher - Jl. Rang Kayo Hitam - Jl Sers Zuraida - Terminal Rawasari"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Berangkat : Terminal Rawasari - Jl. MH. Thamrin - Jl. KH. Dahlan - Jl. Sultan Taha - Jl. Slamet Riyadi - Jl. Yusuf Singedekane - Jl. A. Manap - Jl. Simp. Karya - Jl. A. Thalib - Jl. SLTP 7 - Jl. Kapt. A. Bakar - Komp. Bukit Indah - SLB - Ring Road - BLK - Pemancar - Bangunan - Jl. Arif Rahman Hakim"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

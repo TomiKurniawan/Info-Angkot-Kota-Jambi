@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.BakungActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Talang Banjar - Talang Bakung"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Berangkat : Terminal Rawasari - Jl. HP Kusuma - Jl. P Diponegoro - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Pingai - Jl. GR Djamin D Bagindo - Jl. M. Taher - Jl. R Siagian - Simp. Chandra - Jl. Talang Bakung - Jl. Hasanuddin (Batas Kota)"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Kembali : Jl. Hasanuddin (Batas Kota) - Talang Bakung - Simp. Chandra - Jl. R Siagian - Jl. Kol M Taher - Jl. GR Djamin D Bagindo - Jl. Bhayangkara - Jl. Rang Kayo Pingai - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Hitam - Jl. Sers. Zuraida - Terminal Rawasari"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

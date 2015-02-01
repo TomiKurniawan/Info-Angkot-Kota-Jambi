@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01e4ff"
+    tools:context="com.example.infoangkotkotajambi.TipsActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/lintas1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Tips"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Ada beberapa tips yang akan membuat anda aman dan nyaman di angkot :\n\n
+-> Jangan memakai perhiasan yang berlebihan atau yang mencolok, karna akan menggundang bahaya\n
+-> Pilihlah angkot yang kiranya tidak mengemudi secara sembarangan atau ugal-ugalan\n
+-> Pakailah pakaian yang sopan dan tidak mengandung nafsu bagi orang lain\n
+-> Selalu menjaga barang bawaan\n
+-> Hindari diri sendiri dalam angkot sendirian dengan pengemudi dan kernet angkot\n"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.BanjarActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Talang Banjar - Selincah"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Berangkat : Terminal Rawasari - Jl. HP Kusuma - Stadion Tri Lomba Juang - Jl. P. Diponegoro - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Hitam - Jl. Sentot Alibasa - Silincah - Jl. Lingkar Timur - Taman ACI (pp)"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Kembali : Terminal Rawasari - Jl. HP Kusuma - Stadion Tri Lomba Juang - Jl. P. Diponegoro - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Hitam - Jl. Sentot Alibasa - Silincah - Jl. Lingkar Timur - Taman ACI (pp)"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

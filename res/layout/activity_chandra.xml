@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.ChandraActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Thehok - Lrg.Chandra - Selincah"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="22dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Berangkat/Kembali : Terminal Rawasari - Jl. HP Kusuma - Jl. P Diponegoro - Jl. Jend. Sudirman - Jl. Soekarno-Hatta - Jl. Iswahyudi - Lrg. Chandra - Talang Bakung - Jl. Fatahillah - Silincah - Jl. Rang Kayo Pingai - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Hitam - Jl Sers Zuraida - Terminal Rawasari"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Berangkat/Kembali : Terminal Rawasari - Jl. HP Kusuma - Jl. P Diponegoro - Jl. Jend. Sudirman - Jl. Soekarno-Hatta - Jl. Iswahyudi - Lrg. Chandra - Talang Bakung - Jl. Fatahillah - Silincah - Jl. Rang Kayo Pingai - Jl. May. Abd. Kartawirana - Jl. Rang Kayo Hitam - Jl Sers Zuraida - Terminal Rawasari"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

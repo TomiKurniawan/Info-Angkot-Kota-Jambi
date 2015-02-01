@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#464646"
+    tools:context="com.example.infoangkotkotajambi.ThehokActivity" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="22dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Berangkat : Terminal Rawasari - Jl. HP Kusuma - Jl. Jend. Sudirman - Jl. Soekarno-Hatta - Jl. A. Rahman Saleh - Jl. Darmawangsa - Jl. Adam Malik - Jl. R Wijaya - Beringin - Jl. Soekarno-Hatta - Jl. Jend. Sudirman - Jl. P. Diponegoro - Jl. Rang Kayo Hitam - Jl Sers Zuraida - Terminal Rawasari"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="21dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Kembali : Terminal Rawasari - Jl. HP Kusuma - Jl. Jend. Sudirman - Jl. Soekarno-Hatta - Jl. A. Rahman Saleh - Jl. Darmawangsa - Jl. Adam Malik - Jl. R Wijaya - Beringin - Jl. Soekarno-Hatta - Jl. Jend. Sudirman - Jl. P. Diponegoro - Jl. Rang Kayo Hitam - Jl Sers Zuraida - Terminal Rawasari"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Thehok - Beringin"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="27sp" />
+
+</RelativeLayout>

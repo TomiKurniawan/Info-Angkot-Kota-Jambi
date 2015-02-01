@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01e4ff"
+    tools:context="com.example.infoangkotkotajambi.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:scaleType="fitXY"
+        android:src="@drawable/lintas1" />
+
+    <ImageView
+        android:id="@+id/rute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cari"
+        android:layout_below="@+id/cari"
+        android:layout_marginTop="34dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="133dp"
+        android:onClick="openRute"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rute" />
+
+    <ImageView
+        android:id="@+id/ongkos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/cari"
+        android:layout_alignTop="@+id/rute"
+        android:adjustViewBounds="true"
+        android:maxWidth="133dp"
+        android:onClick="openOngkos"
+        android:src="@drawable/ongkos" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/rute"
+        android:layout_below="@+id/rute"
+        android:layout_marginRight="26dp"
+        android:text="Rute Angkot"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/ongkos"
+        android:layout_below="@+id/ongkos"
+        android:layout_marginRight="42dp"
+        android:text="Ongkos"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/jam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rute"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="133dp"
+        android:onClick="openJam"
+        android:scaleType="centerCrop"
+        android:src="@drawable/operasional" />
+
+    <ImageView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ongkos"
+        android:layout_alignTop="@+id/jam"
+        android:adjustViewBounds="true"
+        android:maxWidth="133dp"
+        android:onClick="openTips"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tips" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jam"
+        android:layout_below="@+id/jam"
+        android:layout_marginLeft="14dp"
+        android:text="Jam Operasional"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tips"
+        android:layout_alignRight="@+id/tips"
+        android:layout_below="@+id/tips"
+        android:paddingLeft="50dp"
+        android:text="Tips"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jam"
+        android:layout_below="@+id/textView3"
+        android:adjustViewBounds="true"
+        android:maxWidth="133dp"
+        android:onClick="openTentang"
+        android:paddingTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/about1" />
+
+    <ImageView
+        android:id="@+id/keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignTop="@+id/tentang"
+        android:adjustViewBounds="true"
+        android:maxWidth="133dp"
+        android:paddingTop="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/keluar" />
+
+    <TextView
+        android:id="@+id/txtkeluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/keluar"
+        android:layout_below="@drawable/keluar"
+        android:paddingLeft="45dp"
+        android:text="Keluar"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/cari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff"
+        android:height="50dp"
+        android:minHeight="60dp"
+        android:onClick="openCari"
+        android:text="CARI ANGKOT"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:width="300dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tentang"
+        android:layout_below="@+id/tentang"
+        android:paddingLeft="42dp"
+        android:text="Tentang"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+  		
+</RelativeLayout>
